@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    Renames built-in guest account on Windows 11 per DISA STIG WN11-CC-000025.
+    Renames built-in guest account on Windows 11 per DISA STIG WN11-SO-000025.
 
 .NOTES
     Author          : Andrew Harris
@@ -11,7 +11,7 @@
     Version         : 1.0
     CVEs            : N/A
     Plugin IDs      : N/A
-    STIG-ID         : WN11-CC-000025
+    STIG-ID         : WN11-SO-000025
 
 .TESTED ON
     Date(s) Tested  : 2026-4-09
@@ -20,7 +20,7 @@
     PowerShell Ver. : 5.1
 
 .USAGE
-    .\remediation-WN11-CC-000025.ps1
+    .\remediation-WN11-SO-000025.ps1
 #>
 Rename-LocalUser -Name "Guest" -NewName "EnterpriseAux"
 $verify = Get-LocalUser -Name "EnterpriseAux"
