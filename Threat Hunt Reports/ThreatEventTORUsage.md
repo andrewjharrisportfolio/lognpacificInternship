@@ -70,6 +70,8 @@ DeviceProcessEvents
 | where FileName has_any ("tor.exe")
 | project Timestamp, DeviceName, AccountName, ActionType, FileName, FolderPath, InitiatingProcessFileName, ProcessCommandLine
 
+
+
 // Outbound connections made by TOR processes
 DeviceNetworkEvents
 | where DeviceName contains "vmtorfinal"
@@ -121,9 +123,14 @@ TOR usage was confirmed on endpoint `vmtorfinal`. The device was isolated and th
 
 ---
 
-## Additional Notes:
+## Additional Notes and Screenshots:
 - The user's first silent install attempt failed due to using `/s` instead of `/S`, suggesting intentional evasion awareness.
 - Outbound TOR connections occurred over port 443, blending with normal HTTPS traffic to evade detection.
+
+<img width="1912" height="868" alt="showing firefox was used to launch tor" src="https://github.com/user-attachments/assets/3544aec2-a690-48b7-9dda-35c8bbfe759c" />
+<img width="1863" height="820" alt="connections made to nodes" src="https://github.com/user-attachments/assets/f3b32a11-81ac-4e43-985d-3a98cb52fd3c" />
+<img width="1900" height="856" alt="85 121 5 97 node" src="https://github.com/user-attachments/assets/884262cd-4e95-4d98-92ce-59df538fea43" />
+<img width="1819" height="726" alt="64 65 63 30 node" src="https://github.com/user-attachments/assets/070fbeb0-dbd3-45eb-99b2-0fed69facae5" />
 
 ---
 
