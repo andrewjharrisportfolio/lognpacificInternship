@@ -54,13 +54,21 @@ SigninLogs
 **Account 8314de07 — True Positive**  
 Login detected from Morocco at `4/7/2026 2:52 PM`, followed by a login from the United States at `4/7/2026 5:01 PM` — a two hour gap across continents. Physically impossible. Account flagged for compromise.
 
+------
+<img width="1599" height="670" alt="831 impossible travel" src="https://github.com/user-attachments/assets/434832d5-02bf-44e1-9345-2b67e63c4533" />
+
 **Account bfd673bd — True Positive**  
 All logins appeared domestic at first glance. Closer inspection revealed a login in New York at `4/6/2026 1:14 AM` followed by a login in Atlanta, Georgia at `4/6/2026 1:45 AM` — 31 minutes apart across a 900-mile distance. Flagged as suspicious.
+
+------
+<img width="1593" height="668" alt="bfd impossible travel" src="https://github.com/user-attachments/assets/1fb7932b-949f-4100-a202-f4aaca62efc0" />
 
 **Account 8133d43a — Investigated / Benign**  
 Login in Pompano Beach, Florida at `4/2/2026 2:02 PM` followed by a login in Columbus, Ohio at `4/2/2026 5:03 PM` — approximately 3 hours apart. Travel was investigated and confirmed plausible. No action taken.
 
 ---
+<img width="1571" height="640" alt="813 impossible travel" src="https://github.com/user-attachments/assets/3aacb5e9-3ce2-4d0f-8b24-22bb428d2724" />
+
 
 ## Containment, Eradication & Recovery
 
