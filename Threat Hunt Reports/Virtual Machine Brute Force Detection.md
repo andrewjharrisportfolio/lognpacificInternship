@@ -1,6 +1,8 @@
 ## Scenario 1: Virtual Machine Brute Force Detection ##
 
-*Platform: Microsoft Sentinel + Microsoft Defender for Endpoint*
+**Status:** Closed — True Positive
+
+**Platform: Microsoft Sentinel + Microsoft Defender for Endpoint**
 
 ### Objective ###
 
@@ -52,18 +54,11 @@ Result: No successful logons detected. No breach confirmed.
 
 ### Part 3: Containment, Eradication & Recovery ###
 
-Isolated all three affected devices via Microsoft Defender for Endpoint
-
-
-Ran antimalware scans on all three devices within MDE
-
-Password policy updated to enforce rotation every 90 days
-
-
-Locked down NSG to restrict RDP access to whitelisted IPs within the subnet only
-
-
-Both source IPs confirmed malicious via VirusTotal entire subnet 94.26.68.0/24 blocked
+- Isolated all three affected devices via Microsoft Defender for Endpoint
+- Ran antimalware scans on all three devices within MDE
+- Password policy updated to enforce rotation every 90 days
+- Locked down NSG to restrict RDP access to whitelisted IPs within the subnet only
+- Both source IPs confirmed malicious via VirusTotal entire subnet 94.26.68.0/24 blocked
 
 
 <img width="1918" height="863" alt="virus total scan 1" src="https://github.com/user-attachments/assets/0b0c49a4-1f4a-483f-893d-087f7cbaf643" />
@@ -75,4 +70,4 @@ Both source IPs confirmed malicious via VirusTotal entire subnet 94.26.68.0/24 b
 
 # Closure #
 
-Incident closed as True Positive brute force confirmed, no successful authentication. All containment measures applied and verified.
+Incident closed as **True Positive** brute force confirmed, no successful authentication. All containment measures applied and verified.
