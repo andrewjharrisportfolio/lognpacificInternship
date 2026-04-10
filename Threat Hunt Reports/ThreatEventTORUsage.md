@@ -1,4 +1,6 @@
 # Threat Event (Unauthorized TOR Usage)
+
+
 **Unauthorized TOR Browser Installation and Use on Workstation: VMTORFINAL**
 
 ---
@@ -111,14 +113,11 @@ TOR usage was confirmed on endpoint `vmtorfinal`. The device was isolated and th
 ---
 
 ## Created By:
-- **Author Name**: Drew Harris
-- **Author Contact**: https://www.linkedin.com/in/drewharris
+- **Author Name**: Andrew Harris
+- **Author Contact**: (https://www.linkedin.com/in/andrewjharris8/)
 - **Date**: April 8, 2026
 
-## Validated By:
-- **Reviewer Name**:
-- **Reviewer Contact**:
-- **Validation Date**:
+
 
 ---
 
@@ -131,4 +130,4 @@ TOR usage was confirmed on endpoint `vmtorfinal`. The device was isolated and th
 ## Revision History:
 | **Version** | **Changes** | **Date** | **Modified By** |
 |---|---|---|---|
-| 1.0 | Initial draft | `April 8, 2026` | `Drew Harris` |
+| 1.0 | Initial draft | `April 8, 2026` | `Andrew Harris` |
