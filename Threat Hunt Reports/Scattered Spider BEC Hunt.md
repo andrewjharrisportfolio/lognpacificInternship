@@ -110,7 +110,7 @@ SigninLogs
 | sort by TimeGenerated asc
 ```
 
-**73 events returned.** Key events extracted below (full export: `[query_data.csv](https://github.com/andrewjharrisportfolio/lognpacificInternship/blob/main/Threat%20Hunt%20Reports/query_data.csv)`):
+**73 events returned.** Key events extracted below (full export: [query_data.csv](https://github.com/andrewjharrisportfolio/lognpacificInternship/blob/main/Threat%20Hunt%20Reports/query_data.csv):
 
 | Time (UTC) | Source | Activity | Kill Chain Phase |
 |---|---|---|---|
