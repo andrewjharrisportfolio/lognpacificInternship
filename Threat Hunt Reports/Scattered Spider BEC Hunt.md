@@ -516,6 +516,6 @@ SigninLogs
 
 ---
 
-*Thanks to LogN Pacific and Josh Madakor for the scenario design and Cyber Range environment.*
+
 
 *This report is based on a controlled Cyber Range scenario. All systems, users, IP addresses, and email addresses are simulated.*
