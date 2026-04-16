@@ -1,12 +1,15 @@
 # SOC Incident Investigation: Scattered Spider — BEC Wire Fraud
 
 **Analyst:** Andrew Harris\
-**Date Completed:** April 15 2026\
+**Date Completed:** April 15, 2026\
 **Environment:** LogN Pacific Financial Services — Finance Department\
 **Timeframe:** 25 February 2026, 21:00–23:00 UTC\
 **Platform:** Microsoft Sentinel / Log Analytics (`LAW-Cyber-Range`)\
 **Tables:** `SigninLogs` · `CloudAppEvents` · `EmailEvents`\
 **Source:** Cyber Range, LogN Pacific
+
+<img width="1239" height="1269" alt="scattered_spider_header" src="https://github.com/user-attachments/assets/fa12a65c-c3e1-4dd2-8c96-e6b76ad99bfe" />
+
 
 
 
