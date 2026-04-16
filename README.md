@@ -1,6 +1,6 @@
 # Cyber Range — Security Operations Portfolio
 
-A collection of hands-on security operations projects completed through a simulated enterprise environment. Each scenario follows real-world SOC workflows using industry-standard tools including Microsoft Sentinel, Microsoft Defender for Endpoint, and Tenable Vulnerability Management.
+A collection of security operations projects built on a live enterprise environment running real attack traffic and vulnerabilities. Each project was worked end-to-end — from writing detection logic and triaging alerts to containing threats and closing incidents — using the same tools and workflows found in production SOC environments.
 
 ---
 
@@ -10,9 +10,9 @@ A collection of hands-on security operations projects completed through a simula
 
 | Scenario | Summary | Outcome |
 |---|---|---|
-| [VM Brute Force Detection](./Scenario_1_VM_Brute_Force.md) | Detected coordinated RDP brute force from a public /24 subnet across 3 VMs using custom KQL in Sentinel | True Positive — No breach confirmed. Subnet blocked, NSG hardened |
-| [PowerShell Suspicious Web Request](./Scenario_2_PowerShell_Web_Request.md) | Identified malicious `Invoke-WebRequest` activity downloading and executing 3 post-exploitation scripts (port scanner, ransomware simulator, EICAR) | True Positive — Device isolated, scripts hashed and removed, PowerShell restricted |
-| [Potential Impossible Travel](./Scenario_3_Impossible_Travel.md) | Investigated 3 flagged accounts for geographic login anomalies using `SigninLogs` KQL analysis | 2 True Positives (Morocco→US in 2hrs, NY→Atlanta in 31min) — Accounts disabled, conditional access hardened |
+| VM Brute Force Detection | Detected coordinated RDP brute force from a public /24 subnet across 3 VMs using custom KQL in Sentinel | True Positive — No breach confirmed. Subnet blocked, NSG hardened |
+| PowerShell Suspicious Web Request | Identified malicious `Invoke-WebRequest` activity downloading and executing 3 post-exploitation scripts (port scanner, ransomware simulator, EICAR) | True Positive — Device isolated, scripts hashed and removed, PowerShell restricted |
+| Potential Impossible Travel | Investigated 3 flagged accounts for geographic login anomalies using `SigninLogs` KQL analysis | 2 True Positives (Morocco→US in 2hrs, NY→Atlanta in 31min) — Accounts disabled, conditional access hardened |
 
 ---
 
@@ -20,7 +20,7 @@ A collection of hands-on security operations projects completed through a simula
 
 | Hunt | Summary | Outcome |
 |---|---|---|
-| [TOR Browser Usage](./Threat_Event_TOR_Usage.md) | Proactively hunted for unauthorized TOR installation and use across `DeviceFileEvents`, `DeviceProcessEvents`, and `DeviceNetworkEvents` | Confirmed full kill chain: silent install → AV probe → dark web browsing → shopping list creation → cleanup attempt. Device isolated, manager notified |
+| TOR Browser Usage | Conducted a proactive threat hunt for unauthorized TOR installation and use across `DeviceFileEvents`, `DeviceProcessEvents`, and `DeviceNetworkEvents` — reconstructing the full activity timeline from installation to cleanup | Confirmed full kill chain: silent install → AV probe → dark web browsing → shopping list creation → cleanup attempt. Device isolated, manager notified |
 
 ---
 
@@ -28,7 +28,7 @@ A collection of hands-on security operations projects completed through a simula
 
 | Project | Summary | Outcome |
 |---|---|---|
-| [Vulnerability Management Program](./Vulnerability_Management_Program.md) | Implemented a full vulnerability management lifecycle from policy creation to remediation across 5 rounds of scanning on a deliberately insecure Windows Server | **88% vulnerability reduction** (26 → 3). 100% of Critical and High findings resolved |
+| Vulnerability Management Program | Implemented a full vulnerability management lifecycle from policy creation to remediation across 5 rounds of scanning on a deliberately insecure Windows Server | **88% vulnerability reduction** (26 → 3). 100% of Critical and High findings resolved |
 
 **Remediation breakdown:**
 
@@ -56,8 +56,8 @@ A collection of hands-on security operations projects completed through a simula
 ## Skills Demonstrated
 
 - Incident detection, triage, and closure following NIST 800-61
-- KQL query authoring across `DeviceLogonEvents`, `DeviceProcessEvents`, `DeviceFileEvents`, `DeviceNetworkEvents`, and `SigninLogs`
-- Threat hunting with hypothesis-driven IoC discovery
-- Vulnerability assessment, prioritization, and remediation tracking
-- Malware analysis (static script review and attack chain reconstruction)
+- Custom KQL detection rule authoring across `DeviceLogonEvents`, `DeviceProcessEvents`, `DeviceFileEvents`, `DeviceNetworkEvents`, and `SigninLogs`
+- Proactive threat hunting using IoC-driven investigation across multiple log sources
+- Vulnerability assessment, prioritization, and remediation tracking across full scan cycles
+- Static script analysis and attack chain reconstruction
 - Conditional access policy configuration and NSG hardening
