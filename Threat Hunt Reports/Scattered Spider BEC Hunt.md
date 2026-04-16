@@ -8,6 +8,141 @@
 **Tables:** `SigninLogs` · `CloudAppEvents` · `EmailEvents`\
 **Source:** Cyber Range, LogN Pacific
 
+
+<svg width="100%" viewBox="0 0 680 520" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Scattered Spider threat actor illustration in cyber range style</title>
+<desc>A stylized cyber spider with dollar sign eyes on a dark background with red accents matching the Cyber Range aesthetic</desc>
+
+<rect x="0" y="0" width="680" height="520" rx="0" fill="#0a0a0f"/>
+
+<rect x="0" y="0" width="680" height="3" fill="#cc2244"/>
+
+<line x1="0" y1="40" x2="680" y2="40" stroke="#1a1a24" stroke-width="0.5"/>
+<line x1="0" y1="80" x2="680" y2="80" stroke="#1a1a24" stroke-width="0.5"/>
+<line x1="0" y1="120" x2="680" y2="120" stroke="#1a1a24" stroke-width="0.5"/>
+<line x1="0" y1="160" x2="680" y2="160" stroke="#1a1a24" stroke-width="0.5"/>
+<line x1="0" y1="200" x2="680" y2="200" stroke="#1a1a24" stroke-width="0.5"/>
+<line x1="0" y1="240" x2="680" y2="240" stroke="#1a1a24" stroke-width="0.5"/>
+<line x1="0" y1="280" x2="680" y2="280" stroke="#1a1a24" stroke-width="0.5"/>
+<line x1="0" y1="320" x2="680" y2="320" stroke="#1a1a24" stroke-width="0.5"/>
+<line x1="0" y1="360" x2="680" y2="360" stroke="#1a1a24" stroke-width="0.5"/>
+<line x1="0" y1="400" x2="680" y2="400" stroke="#1a1a24" stroke-width="0.5"/>
+<line x1="0" y1="440" x2="680" y2="440" stroke="#1a1a24" stroke-width="0.5"/>
+<line x1="0" y1="480" x2="680" y2="480" stroke="#1a1a24" stroke-width="0.5"/>
+
+<line x1="40" y1="0" x2="40" y2="520" stroke="#1a1a24" stroke-width="0.5"/>
+<line x1="170" y1="0" x2="170" y2="520" stroke="#1a1a24" stroke-width="0.5"/>
+<line x1="340" y1="0" x2="340" y2="520" stroke="#1a1a24" stroke-width="0.5"/>
+<line x1="510" y1="0" x2="510" y2="520" stroke="#1a1a24" stroke-width="0.5"/>
+<line x1="640" y1="0" x2="640" y2="520" stroke="#1a1a24" stroke-width="0.5"/>
+
+<text x="24" y="24" font-family="monospace" font-size="11" fill="#cc2244" letter-spacing="2">// THREAT_ACTOR_PROFILE</text>
+
+<text x="24" y="60" font-family="monospace" font-size="9" fill="#2a2a38">target: lognpacific.org</text>
+<text x="24" y="74" font-family="monospace" font-size="9" fill="#2a2a38">vec: mfa_fatigue</text>
+<text x="24" y="88" font-family="monospace" font-size="9" fill="#2a2a38">obj: wire_fraud</text>
+<text x="24" y="102" font-family="monospace" font-size="9" fill="#2a2a38">stat: active</text>
+
+<text x="520" y="60" font-family="monospace" font-size="9" fill="#2a2a38">ip: 205.147.16.190</text>
+<text x="520" y="74" font-family="monospace" font-size="9" fill="#2a2a38">geo: NL</text>
+<text x="520" y="88" font-family="monospace" font-size="9" fill="#2a2a38">os: linux</text>
+<text x="520" y="102" font-family="monospace" font-size="9" fill="#2a2a38">browser: firefox 147.0</text>
+
+<line x1="340" y1="110" x2="340" y2="155" stroke="#cc2244" stroke-width="1.5" opacity="0.6"/>
+<line x1="340" y1="140" x2="200" y2="110" stroke="#cc2244" stroke-width="0.5" opacity="0.3"/>
+<line x1="340" y1="140" x2="480" y2="110" stroke="#cc2244" stroke-width="0.5" opacity="0.3"/>
+<path d="M200 120 Q270 108 340 120 Q410 108 480 120" fill="none" stroke="#cc2244" stroke-width="0.5" opacity="0.2"/>
+
+<g transform="translate(340, 280)">
+  <path d="M-28,-95 Q-100,-115 -155,-65 Q-175,-45 -195,-75 Q-210,-90 -235,-60" fill="none" stroke="#cc2244" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="-235" cy="-60" r="3.5" fill="#cc2244"/>
+  <circle cx="-195" cy="-75" r="2" fill="#cc2244" opacity="0.6"/>
+  <line x1="-235" y1="-60" x2="-255" y2="-55" stroke="#cc2244" stroke-width="0.5" opacity="0.4"/>
+  <line x1="-235" y1="-60" x2="-245" y2="-75" stroke="#cc2244" stroke-width="0.5" opacity="0.4"/>
+
+  <path d="M-32,-75 Q-95,-80 -140,-30 Q-160,0 -185,-15 Q-205,-25 -225,15" fill="none" stroke="#cc2244" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="-225" cy="15" r="3.5" fill="#cc2244"/>
+  <circle cx="-185" cy="-15" r="2" fill="#cc2244" opacity="0.6"/>
+  <line x1="-225" y1="15" x2="-245" y2="25" stroke="#cc2244" stroke-width="0.5" opacity="0.4"/>
+  <line x1="-225" y1="15" x2="-240" y2="0" stroke="#cc2244" stroke-width="0.5" opacity="0.4"/>
+
+  <path d="M-32,-45 Q-85,-25 -130,25 Q-150,55 -175,45 Q-195,38 -215,75" fill="none" stroke="#cc2244" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="-215" cy="75" r="3.5" fill="#cc2244"/>
+  <circle cx="-175" cy="45" r="2" fill="#cc2244" opacity="0.6"/>
+  <line x1="-215" y1="75" x2="-235" y2="80" stroke="#cc2244" stroke-width="0.5" opacity="0.4"/>
+  <line x1="-215" y1="75" x2="-225" y2="60" stroke="#cc2244" stroke-width="0.5" opacity="0.4"/>
+
+  <path d="M-28,-15 Q-65,25 -105,75 Q-125,105 -150,100 Q-170,98 -190,130" fill="none" stroke="#cc2244" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="-190" cy="130" r="3.5" fill="#cc2244"/>
+  <circle cx="-150" cy="100" r="2" fill="#cc2244" opacity="0.6"/>
+  <line x1="-190" y1="130" x2="-210" y2="138" stroke="#cc2244" stroke-width="0.5" opacity="0.4"/>
+  <line x1="-190" y1="130" x2="-200" y2="115" stroke="#cc2244" stroke-width="0.5" opacity="0.4"/>
+
+  <path d="M28,-95 Q100,-115 155,-65 Q175,-45 195,-75 Q210,-90 235,-60" fill="none" stroke="#cc2244" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="235" cy="-60" r="3.5" fill="#cc2244"/>
+  <circle cx="195" cy="-75" r="2" fill="#cc2244" opacity="0.6"/>
+  <line x1="235" y1="-60" x2="255" y2="-55" stroke="#cc2244" stroke-width="0.5" opacity="0.4"/>
+  <line x1="235" y1="-60" x2="245" y2="-75" stroke="#cc2244" stroke-width="0.5" opacity="0.4"/>
+
+  <path d="M32,-75 Q95,-80 140,-30 Q160,0 185,-15 Q205,-25 225,15" fill="none" stroke="#cc2244" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="225" cy="15" r="3.5" fill="#cc2244"/>
+  <circle cx="185" cy="-15" r="2" fill="#cc2244" opacity="0.6"/>
+  <line x1="225" y1="15" x2="245" y2="25" stroke="#cc2244" stroke-width="0.5" opacity="0.4"/>
+  <line x1="225" y1="15" x2="240" y2="0" stroke="#cc2244" stroke-width="0.5" opacity="0.4"/>
+
+  <path d="M32,-45 Q85,-25 130,25 Q150,55 175,45 Q195,38 215,75" fill="none" stroke="#cc2244" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="215" cy="75" r="3.5" fill="#cc2244"/>
+  <circle cx="175" cy="45" r="2" fill="#cc2244" opacity="0.6"/>
+  <line x1="215" y1="75" x2="235" y2="80" stroke="#cc2244" stroke-width="0.5" opacity="0.4"/>
+  <line x1="215" y1="75" x2="225" y2="60" stroke="#cc2244" stroke-width="0.5" opacity="0.4"/>
+
+  <path d="M28,-15 Q65,25 105,75 Q125,105 150,100 Q170,98 190,130" fill="none" stroke="#cc2244" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="190" cy="130" r="3.5" fill="#cc2244"/>
+  <circle cx="150" cy="100" r="2" fill="#cc2244" opacity="0.6"/>
+  <line x1="190" y1="130" x2="210" y2="138" stroke="#cc2244" stroke-width="0.5" opacity="0.4"/>
+  <line x1="190" y1="130" x2="200" y2="115" stroke="#cc2244" stroke-width="0.5" opacity="0.4"/>
+
+  <ellipse cx="0" cy="-5" rx="50" ry="42" fill="#12121e" stroke="#cc2244" stroke-width="1.5"/>
+  <line x1="-28" y1="-18" x2="28" y2="-18" stroke="#cc2244" stroke-width="0.5" opacity="0.2"/>
+  <line x1="-32" y1="-8" x2="32" y2="-8" stroke="#cc2244" stroke-width="0.5" opacity="0.2"/>
+  <line x1="-32" y1="2" x2="32" y2="2" stroke="#cc2244" stroke-width="0.5" opacity="0.2"/>
+  <line x1="-28" y1="12" x2="28" y2="12" stroke="#cc2244" stroke-width="0.5" opacity="0.2"/>
+  <line x1="-20" y1="22" x2="20" y2="22" stroke="#cc2244" stroke-width="0.5" opacity="0.2"/>
+
+  <ellipse cx="0" cy="-70" rx="38" ry="32" fill="#12121e" stroke="#cc2244" stroke-width="1.5"/>
+
+  <circle cx="-14" cy="-74" r="13" fill="#cc2244"/>
+  <circle cx="14" cy="-74" r="13" fill="#cc2244"/>
+
+  <text x="-14" y="-68" font-family="monospace" font-size="17" font-weight="700" text-anchor="middle" fill="#0a0a0f">$</text>
+  <text x="14" y="-68" font-family="monospace" font-size="17" font-weight="700" text-anchor="middle" fill="#0a0a0f">$</text>
+
+  <path d="M-8,-48 Q-12,-36 -6,-32" fill="none" stroke="#ff4466" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M8,-48 Q12,-36 6,-32" fill="none" stroke="#ff4466" stroke-width="2.5" stroke-linecap="round"/>
+</g>
+
+<text x="24" y="430" font-family="monospace" font-size="9" fill="#cc2244" opacity="0.5">T1621</text>
+<text x="24" y="442" font-family="monospace" font-size="9" fill="#2a2a38">mfa_request_generation</text>
+<text x="24" y="458" font-family="monospace" font-size="9" fill="#cc2244" opacity="0.5">T1564.008</text>
+<text x="24" y="470" font-family="monospace" font-size="9" fill="#2a2a38">email_hiding_rules</text>
+
+<text x="520" y="430" font-family="monospace" font-size="9" fill="#cc2244" opacity="0.5">T1534</text>
+<text x="520" y="442" font-family="monospace" font-size="9" fill="#2a2a38">internal_spearphishing</text>
+<text x="520" y="458" font-family="monospace" font-size="9" fill="#cc2244" opacity="0.5">T1657</text>
+<text x="520" y="470" font-family="monospace" font-size="9" fill="#2a2a38">financial_theft</text>
+
+<rect x="0" y="483" width="680" height="37" fill="#0e0e16"/>
+<rect x="0" y="483" width="680" height="1" fill="#1a1a24"/>
+
+<text x="340" y="503" text-anchor="middle" font-family="monospace" font-size="22" font-weight="700" fill="#ffffff" letter-spacing="6">SCATTERED SPIDER</text>
+<text x="340" y="516" text-anchor="middle" font-family="monospace" font-size="10" fill="#cc2244" letter-spacing="3">UNC3944 // 0KTAPUS // BEC WIRE FRAUD</text>
+
+<rect x="0" y="517" width="680" height="3" fill="#cc2244"/>
+</svg>
+
+
+<img width="196" height="150" alt="scattered_spider_header" src="https://github.com/user-attachments/assets/b6cfc3d2-f6d0-4a0b-866f-2ce2d3a43cae" />
+
 ---
 
 ## Table of Contents
