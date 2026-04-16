@@ -1,7 +1,7 @@
 # SOC Incident Investigation: Scattered Spider — BEC Wire Fraud
 
 **Analyst:** Drew Harris\
-**Date Completed:** April 2026\
+**Date Completed:** April 15 2026\
 **Environment:** LogN Pacific Financial Services — Finance Department\
 **Timeframe:** 25 February 2026, 21:00–23:00 UTC\
 **Platform:** Microsoft Sentinel / Log Analytics (`LAW-Cyber-Range`)\
